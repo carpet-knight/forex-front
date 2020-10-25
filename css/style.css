@@ -1,35 +1,3 @@
-/* JustLanded v.1.2.0 Style Index
-
-1. Default and Reset styles
-2. Global elements
-- 2.1 Buttons
-3. Fonts and Headings
-- 3.1 Fonts
-- 3.2 Headings
-4. Content Blocks used for positioning
-5. Landing page header and banner
-- 5.1 Header
-- 5.2 Banner
-6. Content
-- 6.1 Features
-- 6.2 Description
-- 6.3 Screenshots
-- 6.4 How it works
-- 6.5 Video
-- 6.6 Testimonials
-- 6.7 Newsletter
-- 6.8 Buy
-- 6.9 Pricing Table
-7. Social elements
-- 7.1 Contact form
-8. Landing page footer 
-9. Additional styles for jQuery/Foundation Framework plug-ins
-10. Responsive Styling
-
-/*------------------------------------------------------------------------------------------*/
-/* 1. Defaults & Reset of specific styles across browsers */
-/*------------------------------------------------------------------------------------------*/
-
 body {
     background: #ffffff;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -62,13 +30,6 @@ a img {
     border: none;
 }
 
-iframe {
-    border: 0;
-}
-
-/*------------------------------------------------------------------------------------------*/
-/* 2. Global elements used throughout the landing page */
-/*------------------------------------------------------------------------------------------*/
 
 section {
     display: block;
@@ -81,8 +42,6 @@ article section, #newsletter {
     overflow: hidden;
 }
 
-
-/* 2.1 Buttons */
 
 .button {
     text-decoration: none;
@@ -119,12 +78,6 @@ article section, #newsletter {
 .padding-left-small {
     padding-left: 10px;
 }
-
-/*------------------------------------------------------------------------------------------*/
-/* 3. Styles used for fonts and headings */
-/*------------------------------------------------------------------------------------------*/
-
-/* 3.1 Fonts */
 
 h1, h2, h3, h5 {
     font-weight: normal;
@@ -163,29 +116,12 @@ h4 {
     margin: 0 0 5px 0;
 }
 
-/* 3.2 Headings */
+
 #logo img {
     margin: 0 5px 0 0;
     float: left;
 }
 
-#logo h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: 210%;
-    font-weight: 900;
-    color: #313131;
-    float: left;
-    margin: 0 10px 0 0;
-}
-
-#logo h1 span {
-    font-family: 'Merriweather', serif;
-    font-size: 40%;
-    color: #999;
-    font-weight: 400;
-    float: left;
-    margin: 13px 0 0 0;
-}
 
 #logo h2 {
     font-family: 'Merriweather', serif;
@@ -213,10 +149,6 @@ h4 {
     text-align: center;
 }
 
-
-/*------------------------------------------------------------------------------------------*/
-/* 4. Content blocks used to position content */
-/*------------------------------------------------------------------------------------------*/
 
 /* Grid System based on Foundation by ZURB */
 
@@ -378,8 +310,6 @@ img, object, embed {
 }
 
 
-/* Nicolas Gallagher's micro clearfix */
-
 .row {
     *zoom: 1;
 }
@@ -393,11 +323,7 @@ img, object, embed {
     clear: both;
 }
 
-/*------------------------------------------------------------------------------------------*/
-/* 5. Landing page header and banner */
-/*------------------------------------------------------------------------------------------*/
-
-/* 5.1 Header */
+/* End of Grid System */
 
 #logo {
     width: 460px;
@@ -418,14 +344,6 @@ img, object, embed {
     text-align: right;
 }
 
-#phone a {
-    text-decoration: none;
-    color: #313131;
-    cursor: default;
-    font-weight: bold;
-}
-
-/* 5.2 Banner */
 
 #banner {
     background: #6e6e6e;
@@ -434,10 +352,6 @@ img, object, embed {
     /* clear: both; */
     margin: 20px 0 80px 0;
     padding: 35px 0 30px 0;
-}
-
-#banner .inner {
-    overflow: visible;
 }
 
 #banner_image img {
@@ -459,16 +373,6 @@ img, object, embed {
     padding: 7px 0 7px 35px;
 }
 
-#banner a {
-    display: block;
-    color: #fff;
-}
-
-/*------------------------------------------------------------------------------------------*/
-/* 6. Content */
-/*------------------------------------------------------------------------------------------*/
-
-/* 6.2 Description */
 
 #description ul {
     margin: 20px 0 20px 30px;
@@ -480,15 +384,11 @@ img, object, embed {
 }
 
 
-/* 6.4 How it works */
-
 .features li {
     margin: 15px 0 15px 0;
 }
 
 
-
-/* 6.6 Testimonials */
 
 blockquote {
     background: url(../images/bg_quote.png) no-repeat left top;
@@ -533,8 +433,6 @@ blockquote footer div {
 }
 
 
-/* 6.8 Buy */
-
 #payment {
     width: 260px;
     margin: 20px auto 0 auto;
@@ -543,23 +441,6 @@ blockquote footer div {
 #payment img {
     margin: 0 5px 0 0;
 }
-
-
-#favorite .pricing_header, #favorite .pricing_footer {
-    background-color: #92a91c;
-}
-
-#favorite.pricing_block:hover .pricing_header, #favorite.pricing_block:hover .pricing_footer {
-    background-color: #577a1a;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-
-/*------------------------------------------------------------------------------------------*/
-/* 8. Landing page footer */
-/*------------------------------------------------------------------------------------------*/
 
 #page_footer {
     margin-bottom: 15px; 
