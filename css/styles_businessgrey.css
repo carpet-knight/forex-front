@@ -119,12 +119,12 @@ article section, #newsletter {
 
 .buttons_big {
     background-color: rgba(30, 30, 30, 0.15);
-    width: 248px;
+    width: 310px;
     border-radius: 30px;
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     padding: 6px;
-    margin: -65px 0 0 0;
+    margin: -45px 0 0 0;
     overflow: hidden;
     float: left;
     position: relative;
@@ -223,7 +223,7 @@ a.button_buy_big {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fea817', endColorstr = '#c54200', GradientType = 0); /* IE6-8 */
     display: block;
     float: left;
-    width: 237px;
+    width: 300px;
     height: 51px;
     padding: 15px 0 0 0;
     font-size: 135%;
@@ -694,7 +694,7 @@ img {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#6e6e6e', endColorstr = '#313131', GradientType = 0);
     color: #fff;
     clear: both;
-    height: 392px;
+    height: 430px;
     margin: 20px 0 80px 0;
     padding: 35px 0 30px 0;
 }
